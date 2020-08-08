@@ -143,7 +143,7 @@ class deployedTrainee {
     }
 }
 ```
-In the first example when we have to add trainee we don't have any method to add we have to change the array of list of trainees that's why this is a bad example because when we are trying to extend the feature we are breaking the existing code. In the second example we just add an `addTrainee` method then we don't have to change the list of trainees manually we can just push by `addTrainee` method.
+In the first example when we have to add trainee, We don't have any method to add, We have to change the array of list of trainees that's why this is a bad example because, When we are trying to extend the features, We are breaking the existing code. In the second example we just add an `addTrainee` method then we don't have to change the list of trainees manually, We can just push by `addTrainee` method.
 
 ## Liskov Substitution Principle :- 
 If you have a parent class and a child class then we can use parent class and child class interchangeably without getting the wrong results. Let's understand with an example.
@@ -319,7 +319,7 @@ const inventoryTracker = new InventoryTracker(
 inventoryTracker.requestItems();
 ```
 
-In first example we are just passing item in inventory tracker which will always request http but in second example we have two parameters in inventory tracker which is item in requester. We can pass any requester we want.
+In first example we are just passing item in inventory tracker which will always request 'HTTP', beacause we have one only one requester which is requesting 'HTTP', But in second example we have two parameters in inventory tracker which is item and requester. We can pass any requester we want.
 
 
 **Note :- Some of the examples are taken from this [link](https://www.youtube.com/watch?v=XzdhzyAukMM)**
